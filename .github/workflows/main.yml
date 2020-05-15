@@ -7,4 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: hallee/eslint-action@master
+      - uses: GustavPersson/eslint-action@master
+        with:
+          source-root: src
